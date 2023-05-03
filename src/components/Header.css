@@ -1,0 +1,63 @@
+.header {
+    overflow: hidden;
+    background-color: black;
+    font-size: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color:black !important;
+}
+
+.header p {
+    float:left;
+    color: White;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 15px;
+    border-radius: 4px;
+    font-size: 25px;
+}
+
+.header p .logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #4284f5;
+}
+
+.header p:hover {
+    background-color: gray;
+    color: white;
+}
+
+.header p.active {
+    background-color: gray;
+    color: black;
+}
+
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 500px){
+    .header p {
+        float: none;
+        display: bloack;
+        text-align: left;
+    }
+}
+
+.bago {
+    font-size: 35px !important;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-weight: bold !important;
+    color:rgb(48, 48, 53) !important;
+}
+
+.game {
+    font-size: 35px !important;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-weight: bold !important;
+    color:white;
+}
+
